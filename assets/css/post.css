@@ -1,0 +1,32 @@
+#header{
+	width: auto;
+	height: auto;
+	margin: 0;
+	background: none;
+	text-indent: 0;
+}
+
+.box{
+	width: 960px;
+	margin: 0 auto;
+}
+.nav {
+	float: left;
+}
+.nav ul{
+	overflow: hidden;
+	*zoom:1;
+}
+.nav ul li{
+	float: left;
+	margin-right: 10px;
+}
+
+
+
+.main{
+	float: left;
+	border-top:0 none;
+	padding: 0 20px;
+}
+
