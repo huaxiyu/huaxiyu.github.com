@@ -1,0 +1,41 @@
+markdown: kramdown
+pygments: true
+safe: false
+permalink: /posts/:title.html
+exclude:
+  - README.md
+
+name: runrunlily
+host: huaxiyu.github.io
+desc: runrunlily's blog
+
+custom:
+    category:
+        cv: CV
+        video: video
+        illustration: Illustration
+        photography: Photography
+        you: you
+    categories:
+      - name:  cv
+        title: CV
+
+      - name:  video
+        title: video
+
+      - name:  Illustration
+        title: Illustration
+
+      - name:  photography
+        title: Photography
+
+      - name:  you
+        title: you
+
+meta:
+    author:
+        name: huaxiyu
+        email: huaxiyu@gmail.com
+        disqus: tech-justlog-me                     # Disqus缩略标识
+        gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID
+        github: huaxiyu                             # GitHub账号
