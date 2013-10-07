@@ -33,6 +33,8 @@ $(function(){
 		$('article').each(function(){
 			var imgNode = $(this).find('img');
 			var w = imgNode.width();	
+			var href = $(this).find('a').eq(0).attr('href');
+			imgNode.wrap('<a href="'+href+'"></a>')
 			imgNode.css({
 				width: w/2
 			})
