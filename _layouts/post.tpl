@@ -3,7 +3,6 @@ layout: page
 
 pageClass: page-type-post
 ---
-<link rel="stylesheet" type="text/css" href="/assets/css/post.css" />
 
 <div class="trace">/ <a href="/">{{ site.name }}</a> / {{ page.title }}</div>
 
