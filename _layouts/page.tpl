@@ -11,9 +11,9 @@
 </head>
 
 <body class="{{ page.pageClass }}">
+<h1 id="header">Hua Xiyu</h1>
 <div class="nav box">
-	<h1 id="header">Hua Xiyu</h1>
-	<ul>
+		<ul>
 	{% for category in site.custom.categories %}
 	<li class="{{ category.name }}">
 		<a href="/category/{{ category.name }}/">{{ category.title }}</a></li>
