@@ -67,6 +67,9 @@ img{border: 0}
 .list-index article{
 	float: left;
 }
+.list-index article h2{
+	display: none;
+}
 .list-index article img{
 	margin: 10px;
 }

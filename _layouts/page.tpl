@@ -33,7 +33,6 @@ $(function(){
 		$('article').each(function(){
 			var imgNode = $(this).find('img');
 			var w = imgNode.width();	
-			$(this).empty().append(imgNode);
 			imgNode.css({
 				width: w/2
 			})
