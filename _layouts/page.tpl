@@ -11,7 +11,7 @@
 </head>
 
 <body class="{{ page.pageClass }}">
-<h1 id="header">Hua Xiyu</h1>
+<h1 id="header"><a href="http://huaxiyu.github.io">Hua Xiyu</a></h1>
 <div class="nav box">
 		<ul>
 	{% for category in site.custom.categories %}
