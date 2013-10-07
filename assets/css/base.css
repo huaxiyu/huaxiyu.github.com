@@ -61,7 +61,12 @@ img{border: 0}
 }
 
 .main{
-	border-top:1px solid #eee;
-	padding: 20px 0;
+	float: left;
 }
 
+.list-index article{
+	float: left;
+}
+.list-index article img{
+	margin: 10px;
+}
