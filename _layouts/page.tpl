@@ -29,10 +29,14 @@
 <script type="text/javascript">
 $(function(){
 	if (window.location.href == 'http://huaxiyu.github.io/') {
+		$('.main').addClass('list-index')
 		$('article').each(function(){
 			var imgNode = $(this).find('img');
-
-			 $(this).empty().append(imgNode)
+			var w = imgNode.width();	
+			$(this).empty().append(imgNode);
+			imgNode.css({
+				width: w/2
+			})
 		});
 	};	
 })
